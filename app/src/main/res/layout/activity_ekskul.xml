@@ -63,7 +63,6 @@
                             tools:layout_editor_absoluteX="14dp"
                             tools:layout_editor_absoluteY="16dp">
 
-                            <!--                            pembuka menu 1-->
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
                                 android:layout_height="150dp"
@@ -104,8 +103,6 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!--                            penutup menu 1-->
-                            pembuka menu 2-->
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
@@ -124,7 +121,6 @@
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
                                     android:orientation="horizontal">
-
 
                                     <ImageView
                                         android:layout_width="100dp"
@@ -147,8 +143,6 @@
                                     </TextView>
                                 </LinearLayout>
                             </androidx.cardview.widget.CardView>
-                            <!--                            penutup menu 2-->
-                            pembuka menu 3-->
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
@@ -191,51 +185,6 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-                            <!--                            penutup menu 3-->
-                            <!-- pembuka menu 4-->
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginLeft="12dp"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_gravity="center"
-                                    android:orientation="horizontal">
-
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:layout_margin="10dp"
-                                        android:layout_marginLeft="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:src="@drawable/logofutsal">
-
-                                    </ImageView>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI FUTSAL">
-
-                                    </TextView>
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-                            <!--                            penutup menu 4-->
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
@@ -271,13 +220,53 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI PENCAK SILAT">
+                                        android:text="PENCAK SILAT">
 
                                     </TextView>
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
 
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/logoteater2">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="TEATER">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
 
 
                         </GridLayout>

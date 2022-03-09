@@ -11,6 +11,36 @@
         android:theme="@style/Theme.SMPN5TEGAL">
         <activity
             android:name=".MainActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".Buku9Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku8Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Buku7Activity"
+            android:exported="false" />
+        <activity
+            android:name=".GaleriActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerpusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FasilitasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EkskulActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GuruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
