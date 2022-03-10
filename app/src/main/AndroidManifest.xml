@@ -10,8 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN5TEGAL">
         <activity
+            android:name=".OsisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PmrActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TeaterActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
         <activity
             android:name=".Buku9Activity"
             android:exported="false" />
