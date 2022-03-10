@@ -70,7 +70,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="WIKA MEGAWATI"
+                            android:text="Susharnitie, S.Pd"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -83,15 +83,6 @@
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:gravity="center"
-                            android:layout_marginLeft="50dp"
-                            android:text="2086774289 157892 1 004"
-                            android:textColor="#F44336"
-                            android:textSize="17sp"
-                            android:textStyle="bold"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -127,7 +118,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="TENTI NOVIANTI"
+                            android:text="Kurnia Dewi"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -136,18 +127,18 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="WAKA KESISWAAN"
-                            android:textStyle="bold"
+                            android:text="Lahir : Tegal,1975-02-13"
+                            android:textColor="#F44336"
                             android:textSize="17sp"
-                            android:textColor="#4CAF50"/>
+                            android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="2086774289 157892 1 004"
-                            android:textColor="#F44336"
-                            android:textSize="17sp"
+                            android:text="7544751653300062"
+                            android:textColor="#000"
+                            android:textSize="20sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -184,7 +175,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="JAHAR QAULANI"
+                            android:text="HENI ISTIANAH"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -193,7 +184,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="GURU MATEMATIKA"
+                            android:text="Lahir : Tegal,1977-09-28"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>
@@ -202,7 +193,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="2086774289 157892 1 004"
+                            android:text="6260755657300013"
                             android:textColor="#F44336"
                             android:textSize="17sp"
                             android:textStyle="bold"/>
