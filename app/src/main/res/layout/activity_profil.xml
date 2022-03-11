@@ -262,7 +262,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="1. Mengembangkan nilai-nilai keagamaam dan perilaku akhlak mulia untuk mendasari sikap kedisiplinan"
+                            android:text="1. Melakukan Pembinaan untuk mengembangkan potensi Peserta Didik di Bidang Akademik"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -272,7 +272,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="2. Mengembangkan Kurikulum 2013 dan Silabus Kurikulum 2013 yang berkarakter bangsa serta berorientasi pada pencapaian Prestasi Maksimal  pada Siswa dan Sekolah"
+                            android:text="2. Membekali Peserta Didik untuk Memiliki Prestasi dibidang Olahraga, Kesenian, Ketrampilan dan IT"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -282,7 +282,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="3. Melaksanakan 7 K (Kebersihan, Keindahan, Kerindangan, Ketertiban, Keamanan, Kekeluargaan dan Kondusif) yang berwawasan lingkungan"
+                            android:text="3. Memfasilitasi semua kegiatan untuk menumbuhkan Rasa Nasionalisme dan Keagamaan untuk meningkatkan Iman dan Taqwa terhadaap Tuhan Yang Maha Esa "
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -512,6 +512,16 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="75dp"
                         android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="12dp"
+                            android:text="No Telpon : 0283353330"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"

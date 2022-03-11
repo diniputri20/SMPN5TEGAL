@@ -57,7 +57,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru2"/>
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -105,7 +105,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru1"/>
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -118,7 +118,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="KURNIA DEWI"
+                            android:text="Kurnia Dewi"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -127,7 +127,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Tegal,1975-02-13"
+                            android:text="Lahir: Tegal,1975-02-13"
                             android:textColor="#4CAF50"
                             android:textSize="17sp"
                             android:textStyle="bold"/>
@@ -162,7 +162,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru1"/>
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -175,7 +175,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="HENI ISTIANAH"
+                            android:text="Heni Istianah"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -184,7 +184,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Tegal,1977-09-28"
+                            android:text="Lahir: Tegal,1977-09-28"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>
@@ -219,8 +219,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru1"/>
-
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -236,14 +235,14 @@
                             android:layout_marginLeft="50dp"
                             android:text="Agustinah Sri Wahyuningsih"
                             android:textColor="#000"
-                            android:textSize="20sp"
+                            android:textSize="15sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Tegal,1959-08-22"
+                            android:text="Lahir: Tegal,1959-08-22"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>
@@ -278,7 +277,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru3"/>
+                        android:src="@drawable/avatar2"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -291,7 +290,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="AWAL PURNAMASIDI"
+                            android:text="Awal Purnamasidi"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -300,7 +299,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Tegal,1961-11-04"
+                            android:text="Lahir: Tegal,1961-11-04"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>
@@ -335,7 +334,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru2"/>
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -350,16 +349,16 @@
                             android:layout_marginLeft="50dp"
                             android:text="Cacik Paswasananing Sri"
                             android:textColor="#000"
-                            android:textSize="20sp"
+                            android:textSize="18sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Purwodadi,1958-01-24"
+                            android:text="Lahir: Purwodadi,1958-01-24"
                             android:textStyle="bold"
-                            android:textSize="17sp"
+                            android:textSize="15sp"
                             android:textColor="#4CAF50"/>
                         <TextView
                             android:layout_width="wrap_content"
@@ -392,7 +391,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru1"/>
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -405,7 +404,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="CHRISTIN NURINDYASTUTI"
+                            android:text="Christin Nurindyastuti"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:textStyle="bold"/>
@@ -414,7 +413,7 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Ponogoro,1963-09-23"
+                            android:text="Lahir: Ponogoro,1963-09-23"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>
@@ -449,7 +448,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/guru2"/>
+                        android:src="@drawable/avatar1"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -462,16 +461,16 @@
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="DIAN KUSUMANINGRUM"
+                            android:text="Dian Kusumaningrum"
                             android:textColor="#000"
-                            android:textSize="20sp"
+                            android:textSize="16sp"
                             android:textStyle="bold"/>
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
-                            android:text="Lahir : Pekalongan,1982-12-17"
+                            android:text="Lahir: Pekalongan,1982-12-17"
                             android:textStyle="bold"
                             android:textSize="17sp"
                             android:textColor="#4CAF50"/>

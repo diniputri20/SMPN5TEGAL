@@ -29,19 +29,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/sklh1"/>
+                        android:src="@drawable/corona2"/>
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/sklh2"/>
+                        android:src="@drawable/smp5"/>
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/guru4"/>
+                        android:src="@drawable/kepsek"/>
 
                 </ViewFlipper>
 

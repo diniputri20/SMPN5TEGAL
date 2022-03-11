@@ -17,32 +17,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="195dp">
+                    android:layout_height="wrap_content">
 
-
-                    <com.smarteist.autoimageslider.SliderView
-                        android:id="@+id/image_slider"
-                        android:layout_width="match_parent"
-                        android:layout_height="188dp"
-                        app:sliderAnimationDuration="1200"
-                        app:sliderAutoCycleDirection="back_and_forth"
-                        app:sliderAutoCycleEnabled="true"
-                        app:sliderIndicatorAnimationDuration="700"
-                        app:sliderIndicatorGravity="center_horizontal|bottom"
-                        app:sliderIndicatorMargin="15dp"
-                        app:sliderIndicatorOrientation="horizontal"
-                        app:sliderIndicatorPadding="3dp"
-                        app:sliderIndicatorRadius="2dp"
-                        app:sliderIndicatorSelectedColor="#5A5A5A"
-                        app:sliderIndicatorUnselectedColor="#FFF"
-                        app:sliderScrollTimeInSec="2"
-                        app:sliderStartAutoCycle="true" />
-
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="210dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/headerperpus" />
                 </RelativeLayout>
-
-
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -78,7 +63,6 @@
                                 android:layout_gravity="center"
                                 android:orientation="horizontal">
 
-
                                 <ImageView
                                     android:layout_width="140dp"
                                     android:layout_height="140dp"
@@ -86,7 +70,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/bgbuku7">
+                                    android:src="@drawable/bgbuku9">
 
                                 </ImageView>
 
@@ -134,7 +118,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/bgbuku8">
+                                    android:src="@drawable/perpus7">
 
                                 </ImageView>
 
@@ -182,7 +166,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/bgbuku9">
+                                    android:src="@drawable/perpu8">
 
                                 </ImageView>
 
