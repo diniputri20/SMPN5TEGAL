@@ -70,7 +70,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/bgbuku9">
+                                    android:src="@drawable/bukukls8">
 
                                 </ImageView>
 
@@ -118,7 +118,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/perpus7">
+                                    android:src="@drawable/bukukls9">
 
                                 </ImageView>
 
@@ -166,7 +166,7 @@
                                     android:layout_gravity="center"
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="10dp"
-                                    android:src="@drawable/perpu8">
+                                    android:src="@drawable/bukukls7">
 
                                 </ImageView>
 

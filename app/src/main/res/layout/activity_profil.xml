@@ -22,7 +22,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/sklh1"
+                android:src="@drawable/smp5"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -242,7 +242,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="“ TERWUJUDNYA PESERTA DIDIK BERPRESTASI, BERKARAKTER, BERWAWASAN LINGKUNGAN DENGAN DILANDASI IMAN DAN TAQWA”."
+                            android:text="“TERWUJUDNYA PESERTA DIDIK BERPRESTASI, BERKARAKTER, BERWAWASAN LINGKUNGAN DENGAN DILANDASI IMAN DAN TAQWA”."
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -529,6 +529,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Email : smp5tegal@gmail.com"
+                            android:autoLink="email"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -539,6 +540,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Website : http://smpn5kotategal.sch.id"
+                            android:autoLink="web"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />

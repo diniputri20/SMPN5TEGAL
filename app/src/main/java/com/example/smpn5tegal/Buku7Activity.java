@@ -16,16 +16,16 @@ public class Buku7Activity extends AppCompatActivity {
     }
 
     public void mtk7(View view) {
-        goTourl("https://drive.google.com/file/d/17zaH5O0YRtMNueKxCKeNv2U1_An7QOiK/view?usp=drivesdk");
+        goTourl("https://drive.google.com/file/d/1R5h8H9nmJU72m9WITVZmBLdqwdnie0eV/view?usp=sharing");
     }
 
     public void bi7(View view) {
-        goTourl("https://drive.google.com/file/d/17i5FpSXODOm_j3SBltygrub5mRmlCLS1/view?usp=drivesdk");
+        goTourl("https://drive.google.com/file/d/1QJi9YctnB1aac2WLgm7j-7jEA-vzfwDQ/view?usp=sharing");
 
     }
 
     public void big7(View view) {
-        goTourl("https://drive.google.com/file/d/17ohLAJooXRxPksCppQPFyVcmzS0v64xS/view?usp=drivesdk");
+        goTourl("https://drive.google.com/file/d/1QMN-DaOtw7rA5IzRLBCLsljKgvxc3hMs/view?usp=sharing");
     }
 
     public void ipa7(View view) {
@@ -37,7 +37,7 @@ public class Buku7Activity extends AppCompatActivity {
     }
 
     public void pai7(View view) {
-        goTourl("\"https://drive.google.com/file/d/1QbEAk6y-Veee89ga4J9AQyC1xJ-4fmfo/view?usp=sharing");
+        goTourl("https://drive.google.com/file/d/1QbEAk6y-Veee89ga4J9AQyC1xJ-4fmfo/view?usp=sharing");
     }
 
     public void pjok7(View view) {

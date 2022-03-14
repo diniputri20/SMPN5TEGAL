@@ -108,7 +108,7 @@
                     android:layout_marginLeft="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="5dp"
-                    android:text="KGIATAN KEPRAMUKAAN"
+                    android:text="KEGIATAN KEPRAMUKAAN"
                     android:textColor="@color/black"
                     android:textSize="10sp"
                     android:textStyle="bold" />
