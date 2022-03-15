@@ -30,24 +30,38 @@ public class Buku8Activity extends AppCompatActivity {
     }
 
     public void ipa8(View view) {
+        goTourl("https://drive.google.com/file/d/1U-MMg75uBOYIOmRc77Bepxr9riIrwXz1/view?usp=sharing");
+
     }
 
     public void ips8(View view) {
+        goTourl("https://drive.google.com/file/d/1VdtC2d8igkOYX1IAC8dteOyvWJyZoxtL/view?usp=sharing");
+
     }
 
     public void pai8(View view) {
+        goTourl("https://drive.google.com/file/d/1VtvtHEMD9N0t_rg40CaB_wnC1ZyBBPl3/view?usp=sharing");
+
     }
 
     public void pjok8(View view) {
+        goTourl("https://drive.google.com/file/d/1UI6h7y3c1ISx1wg32siJARstFtEoYSLr/view?usp=sharing");
+
     }
 
     public void pkn8(View view) {
+        goTourl("https://drive.google.com/file/d/1WiuFjy6XwtWfPUKcWdNAn-WEGPW0dC7R/view?usp=sharing");
+
     }
 
     public void prakarya8(View view) {
+        goTourl("https://drive.google.com/file/d/1Vlq9oo8qaQkNzACCgUNcmKfJRxm-oWrA/view?usp=sharing");
+
     }
 
     public void sby8(View view) {
+        goTourl("https://drive.google.com/file/d/1U-MMg75uBOYIOmRc77Bepxr9riIrwXz1/view?usp=sharing");
+
     }
 
     private void goTourl(String url){

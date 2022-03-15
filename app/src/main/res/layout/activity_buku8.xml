@@ -251,7 +251,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/bing8"
+                                        android:src="@drawable/bkipa8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -311,7 +311,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/bing8"
+                                        android:src="@drawable/bkips8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -363,7 +363,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/bing8"
+                                        android:src="@drawable/bkpai8"
                                         android:layout_margin="10dp"/>
 
                                     <TextView
@@ -424,7 +424,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bing8" />
+                                        android:src="@drawable/bkpjok8" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -476,7 +476,7 @@
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
-                                        android:src="@drawable/bing8" />
+                                        android:src="@drawable/bkpkn8" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
@@ -535,7 +535,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/bing8"
+                                        android:src="@drawable/bkprakarya8"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
@@ -587,7 +587,7 @@
                                         android:layout_width="100dp"
                                         android:layout_height="100dp"
                                         android:layout_gravity="center"
-                                        android:src="@drawable/bing8"
+                                        android:src="@drawable/bkseni8"
                                         android:layout_marginBottom="20dp"/>
 
                                     <TextView
