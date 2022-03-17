@@ -49,7 +49,7 @@
             <!--           penutup header-->
 
             <androidx.cardview.widget.CardView
-                android:layout_width="400dp"
+                android:layout_width="420dp"
                 android:layout_height="90dp"
                 android:layout_marginLeft="3dp"
                 android:layout_marginTop="3dp"
@@ -159,7 +159,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:onClick="guru"
-                                android:src="@drawable/guru"/>
+                                android:src="@drawable/guru" />
 
                             <TextView
                                 android:layout_width="wrap_content"

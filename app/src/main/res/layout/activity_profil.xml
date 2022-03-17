@@ -282,7 +282,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="3. Memfasilitasi semua kegiatan untuk menumbuhkan Rasa Nasionalisme dan Keagamaan untuk meningkatkan Iman dan Taqwa terhadaap Tuhan Yang Maha Esa "
+                            android:text="3. Memfasilitasi semua kegiatan untuk menumbuhkan Jiwa Nasionalisme dan Kegiatan Keagamaan untuk meningkatkan Iman dan Taqwa terhadaap Tuhan Yang Maha Esa"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />
@@ -292,7 +292,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="4. Melakukan penggalangan partisipasi masyarakat dan komite sekolah untuk meningkatkan kualitas sekolah"
+                            android:text="4. Melakukan kegiatan agar Peserta Didik peduli pada lingkungan"
                             android:textColor="#000"
                             android:textSize="12sp"
                             android:textStyle="bold" />

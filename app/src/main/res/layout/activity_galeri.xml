@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FasilitasActivity">
+    tools:context=".GaleriActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -16,176 +16,278 @@
             android:layout_gravity="center_horizontal"
             android:alignmentMode="alignMargins"
             android:columnCount="1">
-            <!--fasilitas 1-->
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/upacara2">
-
-                </ImageView>
-
-
-            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="UPACARA BENDERA"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Upacara Bendera di sekolah merupakan salah satu upaya untuk mewujudkan tujuan pendidikan yang mencakup nilai-nilai penanaman sikap disiplin, kerja sama, rasa percaya diri, dan tanggung jawa"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
+                    android:orientation="vertical">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/upacara1" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginTop="60dp"
+                                    android:layout_marginRight="12dp"
+                                    android:src="@drawable/upacara2" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Upacara Bendera di sekolah merupakan salah satu upaya untuk mewujudkan tujuan pendidikan yang mencakup nilai-nilai penanaman sikap disiplin, kerja sama, rasa percaya diri, dan tanggung jawab"
+                        android:textColor="#000" />
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
-            <!--            penutup fasilitas 1-->
-
-            <!--fasilitas 2-->
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/pramukasmp">
-
-                </ImageView>
-            </androidx.cardview.widget.CardView>
-
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="KEGIATAN KEPRAMUKAAN"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Pendidikan Kepramukaan Sebagai Ekstrakurikuler Wajib pada Pendidikan Dasar dan Menengah, disebutkan bahwa kepramukaan adalah proses pendidikan di luar lingkungan sekolah dan di luar lingkungan keluarga dalam bentuk kegiatan menarik, menyenangkan, sehat, teratur, terarah, praktis yang dilakukan di alam terbuka dengan Prinsip Dasar Kepramukaan dan Metode Kepramukaan, yang sasaran akhirnya pembentukan watak, akhlak, dan budi pekerti luhur."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
-            </androidx.cardview.widget.CardView>
+                    android:orientation="vertical">
 
-            <!--            penutup fasilitas 2-->
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-            <!--fasilitas 3-->
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/osis2">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
 
-                </ImageView>
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/pramukasmp2" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginTop="60dp"
+                                    android:layout_marginRight="12dp"
+                                    android:src="@drawable/pramuka11" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Pendidikan Kepramukaan Sebagai Ekstrakurikuler Wajib pada Pendidikan Dasar dan Menengah, disebutkan bahwa kepramukaan adalah proses pendidikan di luar lingkungan sekolah dan di luar lingkungan keluarga dalam bentuk kegiatan menarik, menyenangkan, sehat, teratur, terarah, praktis yang dilakukan di alam terbuka dengan Prinsip Dasar Kepramukaan dan Metode Kepramukaan, yang sasaran akhirnya pembentukan watak, akhlak, dan budi pekerti luhur."
+                        android:textColor="#000" />
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="PERINGATAN HARI GURU NASIONAL"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginRight="5dp"
-                    android:text="Hari Guru Nasional memiliki makna sebagai bentuk penghormatan dan untuk menunjukkan penghargaan terhadap guru. Tentunya, setiap guru, siswa, sekolah, atau orang-orang sekitar memiliki cara yang berbeda-beda untuk menunjukkan penghargaan tersebut."
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:textSize="10sp" />
-            </androidx.cardview.widget.CardView>
+                    android:orientation="vertical">
 
-            <!--            penutup fasilitas 3-->
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/osis2" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="10dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginTop="60dp"
+                                    android:layout_marginRight="12dp"
+                                    android:src="@drawable/osis3" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent" />
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="5dp"
+                        android:text="Hari Guru Nasional memiliki makna sebagai bentuk penghormatan dan untuk menunjukkan penghargaan terhadap guru. Tentunya, setiap guru, siswa, sekolah, atau orang-orang sekitar memiliki cara yang berbeda-beda untuk menunjukkan penghargaan tersebut."
+                        android:textColor="#000" />
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
 
         </GridLayout>
-
     </ScrollView>
 
 </RelativeLayout>
-
