@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN5TEGAL">
         <activity
+            android:name=".PaskibActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PencaksilatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VolyActivity"
+            android:exported="false" />
+        <activity
             android:name=".OsisActivity"
             android:exported="false" />
         <activity

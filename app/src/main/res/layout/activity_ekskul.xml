@@ -79,48 +79,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:onClick="osis"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
-                                        android:layout_gravity="center"
-                                        android:layout_margin="10dp"
-                                        android:layout_marginLeft="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:src="@drawable/logoosis">
-
-                                    </ImageView>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:text="ORGANISASI OSIS">
-
-                                    </TextView>
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="150dp"
-                                android:layout_height="150dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginLeft="12dp"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_gravity="center"
                                     android:onClick="pramuka"
                                     android:orientation="horizontal">
 
@@ -204,6 +162,132 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
+                                    android:onClick="voly"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/logovoly">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="BOLA VOLY">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:onClick="pencaksilat"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/logopencak">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="PENCAK SILAT">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:onClick="paskib"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="100dp"
+                                        android:layout_height="100dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/logopaskibraka">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="PASKIBRA">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="150dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
                                     android:onClick="teater"
                                     android:orientation="horizontal">
 
@@ -223,7 +307,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:text="TEATER">
+                                        android:text="SENI TEATER">
 
                                     </TextView>
                                 </LinearLayout>

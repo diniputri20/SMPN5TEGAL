@@ -12,7 +12,7 @@ import com.smarteist.autoimageslider.SliderView;
 
 public class EkskulActivity extends AppCompatActivity {
     SliderView sliderView;
-    int[] images = {R.drawable.osissmp,
+    int[] images = {R.drawable.ekstrakulikuler,
             R.drawable.gerakan,
             R.drawable.uks,
             R.drawable.teateresapa};
@@ -49,6 +49,21 @@ public class EkskulActivity extends AppCompatActivity {
 
     public void teater(View view) {
         Intent intent = new Intent(EkskulActivity.this, TeaterActivity.class);
+        startActivity(intent);
+    }
+
+    public void voly(View view) {
+        Intent intent = new Intent(EkskulActivity.this, VolyActivity.class);
+        startActivity(intent);
+    }
+
+    public void pencaksilat(View view) {
+        Intent intent = new Intent(EkskulActivity.this, PencaksilatActivity.class);
+        startActivity(intent);
+    }
+
+    public void paskib(View view) {
+        Intent intent = new Intent(EkskulActivity.this, PaskibActivity.class);
         startActivity(intent);
     }
 }

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F0F8FF"
     tools:context=".FasilitasActivity">
 
     <ScrollView
@@ -38,163 +39,205 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </androidx.cardview.widget.CardView>
-            <!--fasilitas 1-->
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
-                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:src="@drawable/kelas"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="TEMPAT IBADAH"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="230dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/mushola" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="RUANG KELAS"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-            <!--            penutup fasilitas 1-->
 
-            <!--fasilitas 2-->
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:src="@drawable/masjid"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="380dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="60dp"
+                                android:src="@drawable/kelas" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
-                    android:text="MASJID"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="PERPUSTAKAAN"
+                    android:textColor="#000"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-            <!--            penutup fasilitas 2-->
 
-            <!--fasilitas 3-->
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:src="@drawable/kelas"/>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="380dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="60dp"
+                                android:src="@drawable/kelas" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
                 android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="3dp"
                 android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
                     android:text="LAB KOMPUTER"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
+                    android:textColor="#000"
+                    android:textSize="18sp"
                     android:textStyle="bold" />
 
-            </androidx.cardview.widget.CardView>
-            <!--            penutup fasilitas 3-->
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="170dp"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
-
-                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:src="@drawable/kelas"/>
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_rowWeight="1"
-                android:layout_marginLeft="12dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginRight="12dp"
-                android:layout_marginBottom="12dp">
-
-                <TextView
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="5dp"
-                    android:text="LAB KOMPUTER"
-                    android:textColor="@color/black"
-                    android:textSize="10sp"
-                    android:textStyle="bold" />
+                    android:orientation="vertical">
 
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="380dp"
+                                android:layout_height="250dp"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="60dp"
+                                android:src="@drawable/kelas" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
         </GridLayout>

@@ -214,7 +214,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="PERINGATAN HARI GURU NASIONAL"
+                    android:text="PERINGATAN HARI GURU"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />

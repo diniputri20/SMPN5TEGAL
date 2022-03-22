@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PramukaActivity">
+    tools:context=".VolyActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/gerakan"
+                android:src="@drawable/teateresapa"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -75,7 +75,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/logopramuka"/>
+                        android:src="@drawable/logopencak"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="ORGANISASI PRAMUKA"/>
+                        android:text="PENCAK SILAT"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -107,39 +107,9 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="5dp"
                             android:textColor="#000"
-                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Ektrakulikuler Pramuka merupakan ektrakulikuler wajib untuk siswa. Tujuan Pramuka Pada dasarnya kegiatan Kepramukaan memiliki tujuan untuk melatih generasi muda agar memaksimalkan setiap potensi yang ada di dalam dirinya, baik itu intelektual, spiritual, sosial, dan fisik.">
+                            android:text="Ekskul beladiri pencak silat adalah wadah bagi siswa/i yang baru ingin mengenal dan yang telah memilikii kemampuan dalam beladiri pencak silat. Sehingga mereka bisa mengembangkan dan mengekspresikan diri mereka melalui beladiri pencak silat ini.">
 
                         </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Jadwal Pertemuan :"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Hari Jum'at"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Pukul 14.30 - 17.00"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -158,11 +128,11 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="170dp"
+                        android:layout_height="150dp"
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/pramuka11"/>
+                        android:src="@drawable/teateresmp"/>
                 </androidx.cardview.widget.CardView>
 
             </GridLayout>
