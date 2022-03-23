@@ -13,9 +13,8 @@ import com.smarteist.autoimageslider.SliderView;
 public class EkskulActivity extends AppCompatActivity {
     SliderView sliderView;
     int[] images = {R.drawable.ekstrakulikuler,
-            R.drawable.gerakan,
-            R.drawable.uks,
-            R.drawable.teateresapa};
+            R.drawable.ekstrakulikuler,
+            R.drawable.ekstrakulikuler};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +29,6 @@ public class EkskulActivity extends AppCompatActivity {
         sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
         sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
         sliderView.startAutoCycle();
-    }
-
-    public void osis(View view) {
-        Intent intent = new Intent(EkskulActivity.this, OsisActivity.class);
-        startActivity(intent);
     }
 
     public void pramuka(View view) {

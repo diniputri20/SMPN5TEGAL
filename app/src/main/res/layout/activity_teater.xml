@@ -22,7 +22,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/teateresapa"
+                android:src="@drawable/ekstrakulikuler"
                 android:scaleType="fitXY"
                 android:layout_marginBottom="15dp"
                 app:layout_collapseMode="parallax"/>
@@ -104,42 +104,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="10dp"
                             android:textColor="#000"
                             android:text="Teater merupakan suatu seni drama yang menceritakan mengenai sebuah kisah dengan melalui kata-kata serta gerakan. Awal mula teater diartikan sebagai gedung tempat menyaksikan pertunjukan. Dalam perkembangannya, secara luas teater diartikan sebagai segala hal yang dipertunjukkan di depan orang banyak. Dalam rumusan yang sederhan teater adalah pertunjukan, seperti ketoprak, ludruk, wayang, wayang orang, sintren, atau dagelan.">
 
                         </TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Jadwal Pertemuan :"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Hari Kamis"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="12dp"
-                            android:textSize="12dp"
-                            android:textColor="#000"
-                            android:textStyle="bold"
-                            android:text="Pukul 14.00 - 16.30"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

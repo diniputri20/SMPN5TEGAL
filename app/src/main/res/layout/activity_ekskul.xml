@@ -65,7 +65,7 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_height="85dp"
                                 android:layout_rowWeight="1"
                                 android:layout_columnWeight="1"
                                 android:layout_marginLeft="12dp"
@@ -73,7 +73,8 @@
                                 android:layout_marginRight="12dp"
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#A0522D">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -83,8 +84,8 @@
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
@@ -98,6 +99,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textColor="#FFFFFF"
                                         android:text="ORGANISASI PRAMUKA">
 
                                     </TextView>
@@ -106,7 +108,7 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_height="85dp"
                                 android:layout_rowWeight="1"
                                 android:layout_columnWeight="1"
                                 android:layout_marginLeft="12dp"
@@ -114,7 +116,8 @@
                                 android:layout_marginRight="12dp"
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#6495ED">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -124,13 +127,14 @@
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/logopmr">
+                                        android:backgroundTint="#6495ED"
+                                        android:src="@drawable/logopmr2">
 
                                     </ImageView>
 
@@ -139,6 +143,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textColor="#FFFFFF"
                                         android:text="ORGANISASI PMR">
 
                                     </TextView>
@@ -148,7 +153,7 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_height="85dp"
                                 android:layout_rowWeight="1"
                                 android:layout_columnWeight="1"
                                 android:layout_marginLeft="12dp"
@@ -156,7 +161,8 @@
                                 android:layout_marginRight="12dp"
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#DAA520">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -166,13 +172,13 @@
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/logovoly">
+                                        android:src="@drawable/logovoly2">
 
                                     </ImageView>
 
@@ -181,6 +187,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textColor="#FFFFFF"
                                         android:text="BOLA VOLY">
 
                                     </TextView>
@@ -190,7 +197,7 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_height="85dp"
                                 android:layout_rowWeight="1"
                                 android:layout_columnWeight="1"
                                 android:layout_marginLeft="12dp"
@@ -198,7 +205,8 @@
                                 android:layout_marginRight="12dp"
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#FFD700">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -208,8 +216,8 @@
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
@@ -223,6 +231,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textColor="#FFFFFF"
                                         android:text="PENCAK SILAT">
 
                                     </TextView>
@@ -232,7 +241,7 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_height="85dp"
                                 android:layout_rowWeight="1"
                                 android:layout_columnWeight="1"
                                 android:layout_marginLeft="12dp"
@@ -240,7 +249,8 @@
                                 android:layout_marginRight="12dp"
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#000000">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -250,8 +260,8 @@
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
@@ -265,6 +275,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textColor="#FFFFFF"
                                         android:text="PASKIBRA">
 
                                     </TextView>
@@ -274,7 +285,7 @@
 
                             <androidx.cardview.widget.CardView
                                 android:layout_width="150dp"
-                                android:layout_height="150dp"
+                                android:layout_height="85dp"
                                 android:layout_rowWeight="1"
                                 android:layout_columnWeight="1"
                                 android:layout_marginLeft="12dp"
@@ -282,7 +293,8 @@
                                 android:layout_marginRight="12dp"
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp">
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#FFFFFF">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -292,8 +304,8 @@
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="100dp"
-                                        android:layout_height="100dp"
+                                        android:layout_width="80dp"
+                                        android:layout_height="80dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
@@ -307,6 +319,7 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
+                                        android:textColor="#000000"
                                         android:text="SENI TEATER">
 
                                     </TextView>

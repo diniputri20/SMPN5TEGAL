@@ -231,7 +231,7 @@
                                 android:layout_height="250dp"
                                 android:layout_marginLeft="12dp"
                                 android:layout_marginTop="60dp"
-                                android:src="@drawable/kelas" />
+                                android:src="@drawable/labkomsmp" />
 
                         </LinearLayout>
 

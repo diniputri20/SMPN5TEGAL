@@ -29,13 +29,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/corona2"/>
+                        android:src="@drawable/uptdsmp5"/>
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/smp5"/>
+                        android:src="@drawable/guru6"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/smp5tegal"/>
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -69,7 +75,7 @@
                         android:layout_height="70dp"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
-                        android:src="@drawable/logosklh">
+                        android:src="@drawable/logosmpn5">
 
                     </ImageView>
 
@@ -159,7 +165,7 @@
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
                                 android:onClick="guru"
-                                android:src="@drawable/guru" />
+                                android:src="@drawable/gurulogo" />
 
                             <TextView
                                 android:layout_width="wrap_content"
