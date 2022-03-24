@@ -55,7 +55,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="TEMPAT IBADAH"
+                    android:text="MUSHOLLA"
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -181,7 +181,7 @@
                                 android:layout_height="250dp"
                                 android:layout_marginLeft="12dp"
                                 android:layout_marginTop="60dp"
-                                android:src="@drawable/kelas" />
+                                android:src="@drawable/perpussmp1" />
 
                         </LinearLayout>
 

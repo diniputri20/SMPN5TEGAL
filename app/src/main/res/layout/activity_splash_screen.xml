@@ -29,6 +29,25 @@
             android:textSize="20dp"
             android:textStyle="bold" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:fontFamily="monospace"
+            android:text="@copyright"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"
+            android:text="SMK YPT KOTA TEGAL"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 </RelativeLayout>
