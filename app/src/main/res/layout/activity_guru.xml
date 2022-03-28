@@ -21,7 +21,7 @@
 
                 <ImageView
                     android:layout_width="wrap_content"
-                    android:layout_height="210dp"
+                    android:layout_height="300dp"
                     android:scaleType="fitXY"
                     android:src="@drawable/guru7" />
             </RelativeLayout>
@@ -88,7 +88,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19640827 198501 2 001"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -145,7 +145,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19850720 201001 2 028"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -202,7 +202,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19750415 201212 1 001"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -260,7 +260,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19620330 198301 1 003"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -319,7 +319,7 @@
                             android:text="19750722 199903 2 003"
                             android:textStyle="bold"
                             android:textSize="14sp"
-                            android:textColor="#F44336"/>
+                            android:textColor="#FF3700B3"/>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -374,7 +374,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19810728 200604 1 012"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -399,7 +399,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/lilissuryani"/>
+                        android:src="@drawable/lilis"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -431,7 +431,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19650420 199802 2 001"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -488,7 +488,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19821217 200903 2 008"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -545,7 +545,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19631023 198601 2 005"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -602,7 +602,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19620411 198703 2 006"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -659,7 +659,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19681024 199412 2 002"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -684,7 +684,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/avatar1"/>
+                        android:src="@drawable/sulastri"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -716,7 +716,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19660106 199412 2 001"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -773,7 +773,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19720317 199903 1 004"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -830,7 +830,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19751016 200312 2 004"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -887,7 +887,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19630923 198803 2 008"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -944,7 +944,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19680615 200212 2 010"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1001,7 +1001,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19641025 200701 2 006"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1058,7 +1058,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19730131 200801 1 003"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1115,7 +1115,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19830106 200903 1 004"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1172,7 +1172,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19841025 200903 2 005"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1229,7 +1229,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19750228 201001 2 012"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1286,7 +1286,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19781010 201001 2 018"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1343,7 +1343,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19900120 201502 2 001"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1400,7 +1400,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19830925 201902 2 001"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1457,7 +1457,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19891211 201902 2 005"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1514,7 +1514,7 @@
                             android:gravity="center"
                             android:layout_marginLeft="50dp"
                             android:text="19891017 202012 2 018"
-                            android:textColor="#F44336"
+                            android:textColor="#FF3700B3"
                             android:textSize="14sp"
                             android:textStyle="bold"/>
                     </LinearLayout>
@@ -1779,7 +1779,7 @@
                         android:layout_margin="10dp"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
-                        android:src="@drawable/avatar2"/>
+                        android:src="@drawable/hani"/>
 
                     <LinearLayout
                         android:layout_width="match_parent"

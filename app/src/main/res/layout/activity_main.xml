@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#FF3700B3"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -15,10 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
+
             <!--            Header-->
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="188dp">
+                android:layout_height="200dp">
 
                 <ViewFlipper
                     android:id="@+id/viewFlipper"
@@ -55,14 +57,10 @@
             <!--           penutup header-->
 
             <androidx.cardview.widget.CardView
-                android:layout_width="420dp"
+                android:layout_width="400dp"
                 android:layout_height="90dp"
-                android:layout_marginLeft="3dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginRight="3dp"
-                android:layout_marginBottom="3dp"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="5dp">
+                android:layout_gravity="center"
+                android:backgroundTint="#FF3700B3">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -75,7 +73,7 @@
                         android:layout_height="70dp"
                         android:layout_gravity="center"
                         android:layout_margin="10dp"
-                        android:src="@drawable/logosmpn5">
+                        android:src="@drawable/logosmpn5tegal">
 
                     </ImageView>
 
@@ -86,6 +84,7 @@
                         android:layout_marginLeft="15dp"
                         android:text="SMP NEGERI 5 KOTA TEGAL"
                         android:textSize="20sp"
+                        android:textColor="#FFFFFF"
                         android:textStyle="bold">
 
                     </TextView>
@@ -94,6 +93,7 @@
             </androidx.cardview.widget.CardView>
 
             <!--            pembuka variabel menu 1 dan 2-->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -103,15 +103,14 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="170dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        app:cardCornerRadius="15dp">
-
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:cardCornerRadius="100dp"
+                        android:layout_margin="15dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -119,13 +118,14 @@
                             android:gravity="center"
                             android:orientation="vertical">
 
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:layout_margin="10dp"
-                                android:onClick="profil"
-                                android:src="@drawable/profil"/>
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:scaleType="centerCrop"
+                            android:onClick="profil"
+                            android:src="@drawable/profil" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -136,22 +136,23 @@
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
+
                 </LinearLayout>
                 <!--                penutup menu 1-->
-                menu 2-->
+                <!-- menu 2-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="170dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        app:cardCornerRadius="15dp">
-
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="15">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -164,6 +165,7 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
                                 android:onClick="guru"
                                 android:src="@drawable/gurulogo" />
 
@@ -175,13 +177,18 @@
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
+
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
                 <!--                penutup menu 2-->
             </LinearLayout>
+
             <!--            penutup variabel menu 1 dan 2-->
+
             <!--            pembuka variabel menu 3 dan 4-->
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -191,15 +198,14 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="170dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
+                        android:layout_width="150dp"
                         android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        app:cardCornerRadius="15dp">
-
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="15dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -212,48 +218,9 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="ekskul"
-                                android:src="@drawable/ekskul"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="EKSKUL"
-                                android:textColor="#000"
-                                android:textSize="20dp"
-                                android:textStyle="bold"/>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <!--                penutup menu 3-->
-                menu 4-->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="170dp"
-                    android:layout_weight="1">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        app:cardCornerRadius="15dp">
-
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
                                 android:onClick="fasilitas"
-                                android:src="@drawable/fasilitas"/>
+                                android:src="@drawable/fasilitas" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -263,31 +230,24 @@
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
+
                         </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
-                <!--                penutup menu 4-->
-            </LinearLayout>
-            <!--            penutup variabel menu 3 dan 4-->
-            <!--            pembuka variabel menu 5 dan 6-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal"
-                android:weightSum="2">
-                <!--                menu 5-->
+                <!--                penutup menu 3-->
+                <!-- menu 4-->
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="170dp"
-                    android:layout_weight="1">
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        app:cardCornerRadius="15dp">
-
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:cardCornerRadius="100dp"
+                        android:layout_margin="15">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -300,48 +260,9 @@
                                 android:layout_height="80dp"
                                 android:layout_gravity="center"
                                 android:layout_margin="10dp"
-                                android:onClick="perpus"
-                                android:src="@drawable/perpus"/>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center"
-                                android:text="E-PERPUS"
-                                android:textColor="#000"
-                                android:textSize="20dp"
-                                android:textStyle="bold"/>
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
-                </LinearLayout>
-                <!--                penutup menu 5-->
-                menu 6-->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="170dp"
-                    android:layout_weight="1">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_margin="3dp"
-                        android:padding="1dp"
-                        app:cardCornerRadius="15dp">
-
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:gravity="center"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="80dp"
-                                android:layout_height="80dp"
-                                android:layout_gravity="center"
-                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
                                 android:onClick="galeri"
-                                android:src="@drawable/galeri"/>
+                                android:src="@drawable/galeri" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -351,15 +272,154 @@
                                 android:textColor="#000"
                                 android:textSize="20dp"
                                 android:textStyle="bold"/>
+
                         </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <!--                penutup menu 4-->
+            </LinearLayout>
+
+            <!--            penutup variabel menu 3 dan 4-->
+
+            <!--            pembuka variabel menu 5 dan 6-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2">
+                <!--                menu 5-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        app:cardCornerRadius="100dp"
+                        android:layout_margin="15">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
+                                android:onClick="perpus"
+                                android:src="@drawable/perpus" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="E-PERPUS"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+                <!--                penutup menu 5-->
+                <!-- menu 6-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="170dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="25dp"
+                        android:layout_margin="15dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_gravity="center"
+                                android:layout_margin="10dp"
+                                android:scaleType="centerCrop"
+                                android:onClick="ekskul"
+                                android:src="@drawable/ekskul" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="EKSKUL"
+                                android:textColor="#000"
+                                android:textSize="20dp"
+                                android:textStyle="bold"/>
+
+                        </LinearLayout>
+
                     </androidx.cardview.widget.CardView>
                 </LinearLayout>
                 <!--                penutup menu 6-->
             </LinearLayout>
+
             <!--            penutup variabel menu 5 dan 6-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:padding="1dp"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="#FF3700B3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="10dp"
+                            android:onClick="siapppdb"
+                            android:src="@drawable/ppdb1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="SIAP PPDB"
+                            android:textColor="#FFF"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
         </LinearLayout>
 
     </ScrollView>
-
 
 </LinearLayout>

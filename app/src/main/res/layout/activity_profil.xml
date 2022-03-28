@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF3700B3"
     tools:context=".ProfilActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -63,7 +64,7 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
-                    android:backgroundTint="#00008B"
+                    android:backgroundTint="#556B2F"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
@@ -376,7 +377,7 @@
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:backgroundTint="#9400D3"
+                    android:backgroundTint="#556B2F"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
@@ -458,7 +459,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
-                            android:text="No Telpon : 0283353330"
+                            android:text="No Telpon : (0283) 353330"
                             android:textColor="#FFFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />

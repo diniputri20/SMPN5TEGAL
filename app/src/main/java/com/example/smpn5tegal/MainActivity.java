@@ -61,4 +61,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, GaleriActivity.class);
         startActivity(intent);
     }
+
+    public void siapppdb(View view) {
+        Intent intent = new Intent(MainActivity.this, GaleriActivity.class);
+        startActivity(intent);
+    }
 }

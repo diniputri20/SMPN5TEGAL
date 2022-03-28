@@ -36,11 +36,6 @@ public class EkskulActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void pmr(View view) {
-        Intent intent = new Intent(EkskulActivity.this, PmrActivity.class);
-        startActivity(intent);
-    }
-
     public void teater(View view) {
         Intent intent = new Intent(EkskulActivity.this, TeaterActivity.class);
         startActivity(intent);
@@ -51,13 +46,23 @@ public class EkskulActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void pencaksilat(View view) {
-        Intent intent = new Intent(EkskulActivity.this, PencaksilatActivity.class);
+    public void bola(View view) {
+        Intent intent = new Intent(EkskulActivity.this, SepakbolaActivity.class);
         startActivity(intent);
     }
 
-    public void paskib(View view) {
-        Intent intent = new Intent(EkskulActivity.this, PaskibActivity.class);
+    public void renang(View view) {
+        Intent intent = new Intent(EkskulActivity.this, RenangActivity.class);
+        startActivity(intent);
+    }
+
+    public void senam(View view) {
+        Intent intent = new Intent(EkskulActivity.this, SenamActivity.class);
+        startActivity(intent);
+    }
+
+    public void karate(View view) {
+        Intent intent = new Intent(EkskulActivity.this, KarateActivity.class);
         startActivity(intent);
     }
 }

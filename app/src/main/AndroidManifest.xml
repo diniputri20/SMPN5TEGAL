@@ -10,22 +10,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN5TEGAL">
         <activity
-            android:name=".PaskibActivity"
+            android:name=".SiapppdbActivity"
             android:exported="false" />
         <activity
-            android:name=".PencaksilatActivity"
+            android:name=".SenamActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KarateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RenangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SepakbolaActivity"
             android:exported="false" />
         <activity
             android:name=".VolyActivity"
             android:exported="false" />
         <activity
-            android:name=".OsisActivity"
-            android:exported="false" />
-        <activity
             android:name=".PramukaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PmrActivity"
             android:exported="false" />
         <activity
             android:name=".TeaterActivity"

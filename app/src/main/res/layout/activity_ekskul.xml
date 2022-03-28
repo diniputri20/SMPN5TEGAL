@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF3700B3"
     tools:context=".EkskulActivity">
     <FrameLayout
         android:layout_width="match_parent"
@@ -117,51 +118,6 @@
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
                                 app:cardElevation="8dp"
-                                android:backgroundTint="#6495ED">
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:layout_gravity="center"
-                                    android:onClick="pmr"
-                                    android:orientation="horizontal">
-
-                                    <ImageView
-                                        android:layout_width="80dp"
-                                        android:layout_height="80dp"
-                                        android:layout_gravity="center"
-                                        android:layout_margin="10dp"
-                                        android:layout_marginLeft="10dp"
-                                        android:layout_marginTop="10dp"
-                                        android:backgroundTint="#6495ED"
-                                        android:src="@drawable/logopmr2">
-
-                                    </ImageView>
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="50dp"
-                                        android:textColor="#FFFFFF"
-                                        android:text="ORGANISASI PMR">
-
-                                    </TextView>
-                                </LinearLayout>
-
-                            </androidx.cardview.widget.CardView>
-
-                            <androidx.cardview.widget.CardView
-                                android:layout_width="150dp"
-                                android:layout_height="85dp"
-                                android:layout_rowWeight="1"
-                                android:layout_columnWeight="1"
-                                android:layout_marginLeft="12dp"
-                                android:layout_marginTop="3dp"
-                                android:layout_marginRight="12dp"
-                                android:layout_marginBottom="12dp"
-                                app:cardCornerRadius="8dp"
-                                app:cardElevation="8dp"
                                 android:backgroundTint="#DAA520">
 
                                 <LinearLayout
@@ -206,23 +162,23 @@
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
                                 app:cardElevation="8dp"
-                                android:backgroundTint="#FFD700">
+                                android:backgroundTint="#FFFFFF">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:onClick="pencaksilat"
+                                    android:onClick="bola"
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="80dp"
-                                        android:layout_height="80dp"
+                                        android:layout_width="75dp"
+                                        android:layout_height="75dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/logopencak">
+                                        android:src="@drawable/bola">
 
                                     </ImageView>
 
@@ -231,8 +187,8 @@
                                         android:layout_height="wrap_content"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
-                                        android:textColor="#FFFFFF"
-                                        android:text="PENCAK SILAT">
+                                        android:textColor="#000000"
+                                        android:text="SEPAK BOLA">
 
                                     </TextView>
                                 </LinearLayout>
@@ -250,23 +206,68 @@
                                 android:layout_marginBottom="12dp"
                                 app:cardCornerRadius="8dp"
                                 app:cardElevation="8dp"
-                                android:backgroundTint="#000000">
+                                android:backgroundTint="#FFD700">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_row="0"
+                                    android:layout_gravity="center"
+                                    android:onClick="karate"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="75dp"
+                                        android:layout_height="75dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/karate">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:text="KARATE"
+                                        android:textColor="#FFFFFF">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="85dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#FFD700">
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
                                     android:layout_gravity="center"
-                                    android:onClick="paskib"
+                                    android:onClick="renang"
                                     android:orientation="horizontal">
 
                                     <ImageView
-                                        android:layout_width="80dp"
-                                        android:layout_height="80dp"
+                                        android:layout_width="75dp"
+                                        android:layout_height="75dp"
                                         android:layout_gravity="center"
                                         android:layout_margin="10dp"
                                         android:layout_marginLeft="10dp"
                                         android:layout_marginTop="10dp"
-                                        android:src="@drawable/logopaskibraka">
+                                        android:src="@drawable/renang">
 
                                     </ImageView>
 
@@ -276,7 +277,51 @@
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
                                         android:textColor="#FFFFFF"
-                                        android:text="PASKIBRA">
+                                        android:text="RENANG">
+
+                                    </TextView>
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="150dp"
+                                android:layout_height="85dp"
+                                android:layout_rowWeight="1"
+                                android:layout_columnWeight="1"
+                                android:layout_marginLeft="12dp"
+                                android:layout_marginTop="3dp"
+                                android:layout_marginRight="12dp"
+                                android:layout_marginBottom="12dp"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="8dp"
+                                android:backgroundTint="#FFD700">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:onClick="senam"
+                                    android:orientation="horizontal">
+
+                                    <ImageView
+                                        android:layout_width="75dp"
+                                        android:layout_height="75dp"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="10dp"
+                                        android:layout_marginLeft="10dp"
+                                        android:layout_marginTop="10dp"
+                                        android:src="@drawable/senam">
+
+                                    </ImageView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginLeft="50dp"
+                                        android:textColor="#FFFFFF"
+                                        android:text="SENAM">
 
                                     </TextView>
                                 </LinearLayout>
@@ -326,7 +371,6 @@
                                 </LinearLayout>
 
                             </androidx.cardview.widget.CardView>
-
 
                         </GridLayout>
 

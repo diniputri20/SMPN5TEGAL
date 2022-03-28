@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PencaksilatActivity extends AppCompatActivity {
+public class SiapppdbActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pencaksilat);
+        setContentView(R.layout.activity_siapppdb);
     }
 }
