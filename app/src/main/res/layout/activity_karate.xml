@@ -107,7 +107,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="10dp"
                             android:textColor="#000"
-                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Ektrakulikuler Pramuka merupakan ektrakulikuler wajib untuk siswa. Tujuan Pramuka Pada dasarnya kegiatan Kepramukaan memiliki tujuan untuk melatih generasi muda agar memaksimalkan setiap potensi yang ada di dalam dirinya, baik itu intelektual, spiritual, sosial, dan fisik.">
+                            android:text="Beladiri karate adalah sebuah cabang olahraga untuk memperdalam pengetahuan siswa/i SMPN 5 TEGAL tentang salah satu beladiri yang ada di Indonesia. Ekskul beladiri karate adalah wadah bagi siswa/i yang baru ingin mengenal dan yang telah memilikii kemampuan dalam beladiri karate. Sehingga mereka bisa mengembangkan dan mengekspresikan diri mereka melalui beladiri karate ini. Ekskul beladiri karate tentunya terbuka untuk semua siswa/i SMPN 5 TEGAL baik yang sudah pandaii beladiri maupun yang belum pandai beladiri.">
 
                         </TextView>
 
@@ -117,7 +117,15 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginTop="13dp"
-                            android:src="@drawable/renang1"/>
+                            android:src="@drawable/karatelatihan"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>

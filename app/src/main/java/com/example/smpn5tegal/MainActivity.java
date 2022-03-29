@@ -63,7 +63,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void siapppdb(View view) {
-        Intent intent = new Intent(MainActivity.this, GaleriActivity.class);
+        Intent intent = new Intent(MainActivity.this, SiapppdbActivity.class);
+        startActivity(intent);
+    }
+
+    public void prestasi(View view) {
+        Intent intent = new Intent(MainActivity.this, PrestasiActivity.class);
         startActivity(intent);
     }
 }

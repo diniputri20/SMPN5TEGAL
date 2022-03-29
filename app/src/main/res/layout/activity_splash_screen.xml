@@ -17,7 +17,7 @@
             android:layout_height="150dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/logosmpn5" />
+            android:src="@drawable/logosmpn5tegal" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="440dp"
             android:fontFamily="monospace"
             android:text="@copyright"
             android:textStyle="bold" />

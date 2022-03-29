@@ -107,7 +107,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="10dp"
                             android:textColor="#000"
-                            android:text="Pramuka adalah singkatan dari Praja Muda Karana dan merupakan organisasi atau gerakan kepanduan. Pramuka adalah sebuah organisasi yang merupakan wadah proses pendidikan kepramukaan yang dilaksanakan di Indonesia. Ektrakulikuler Pramuka merupakan ektrakulikuler wajib untuk siswa. Tujuan Pramuka Pada dasarnya kegiatan Kepramukaan memiliki tujuan untuk melatih generasi muda agar memaksimalkan setiap potensi yang ada di dalam dirinya, baik itu intelektual, spiritual, sosial, dan fisik.">
+                            android:text="Ekstrakurikuler renang merupakan salah satu cabang olahraga yang menjadi kegiatan ekstrakulikuler di SMPN 5 TEGAL. Kegiatan Ekstrakulikuler renang menjadi wadah untuk peserta didik di SMPN 5 TEGAL untuk menyalurkan hobi serta mengembangkan minat dan bakatnya dalam cabang olahraga renang. Adapun tujuan lain diselenggarakannya Ekstrakulikuler renang ini adalah untuk pembinaan prestasi peserta didik dibidang non akademik khusunya pada olahraga.">
 
                         </TextView>
 
@@ -118,6 +118,15 @@
                             android:layout_marginRight="12dp"
                             android:layout_marginTop="13dp"
                             android:src="@drawable/renang2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="20dp"
+                            android:textColor="#000"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
