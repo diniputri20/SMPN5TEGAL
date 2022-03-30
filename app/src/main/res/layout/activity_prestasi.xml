@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#E5E5E6"
     tools:context=".PrestasiActivity">
 
     <ScrollView
@@ -194,8 +195,8 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginRight="20dp"
-                        android:text="Lomba SKJ Tahun 2017, 2018, 2019"
-                        android:textSize="20dp"
+                        android:text="Lomba Skj Tahun 2017, 2018, dan 2019"
+                        android:textSize="18dp"
                         android:textStyle="bold"
                         android:textColor="#000" />
 

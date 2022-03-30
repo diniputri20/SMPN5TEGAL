@@ -49,8 +49,8 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
                         android:layout_marginTop="25dp"
-                        android:text="DAFTAR BUKU"
-                        android:textColor="#FF0000"
+                        android:text="DAFTAR BUKU ONLINE"
+                        android:textColor="#000080"
                         android:textStyle="bold"/>
 
                 </androidx.cardview.widget.CardView>

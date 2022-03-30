@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000080"
+    android:background="#E5E5E6"
     tools:context=".ProfilActivity">
 
     <com.google.android.material.appbar.AppBarLayout
@@ -64,7 +64,7 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="#000080"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
@@ -76,7 +76,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
-                        android:textColor="#000"
+                        android:textColor="#FFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:text="Identitas Satuan Pendidikan"/>
@@ -93,7 +93,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="NAMA : SMP NEGERI 5 KOTA TEGAL"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -103,7 +103,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="NPSN : 20329830"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -113,7 +113,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Status : NEGERI"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -123,7 +123,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Alamat : Jl. Gatot Subroto Tegal Selatan"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -133,7 +133,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Desa / Kelurahan : Debong Kulon"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -143,7 +143,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Kecamatan : Kec. Tegal Selatan"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -153,7 +153,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Kab. / Kota : Kota Tegal"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -163,7 +163,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Provinsi : Prov. Jawa Tengah"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -173,7 +173,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Kode Pos : 52133"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -183,7 +183,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Waktu Penyelenggaraan : 6 / Pagi hari"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -193,7 +193,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Jenjang Pendidikan : SMP"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -206,7 +206,7 @@
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="#000080"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
@@ -219,7 +219,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
-                        android:textColor="#000"
+                        android:textColor="#FFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:text="Dokumen dan Perizinan"/>
@@ -236,7 +236,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Naungan : Kementerian Pendidikan dan Kebudayaan"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -246,7 +246,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="No. SK. Pendirian : 648/065/2017"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -256,7 +256,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Tanggal. SK. Pendirian : 2017-01-20"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -266,7 +266,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="No. SK. Operasional : 108/S.K/B./III/65-66"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -276,7 +276,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Tanggal SK. Operasional : 1966-07-30"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -286,7 +286,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="File SK Operasional"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -296,7 +296,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Akreditasi : B"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -306,7 +306,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="No. SK. Akreditasi : 147/BAP-SM/X/2015"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -316,7 +316,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Tanggal SK. Akreditasi : 20-10-2015"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -326,7 +326,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="No. Sertifikasi ISO : Belum Bersertifikat"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -358,7 +358,7 @@
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="#000080"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
@@ -371,7 +371,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
-                        android:textColor="#000"
+                        android:textColor="#FFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:text="Sarana Prasarana"/>
@@ -388,7 +388,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Sumber Listrik : PLN"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -398,7 +398,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="Akses Internet : Tidak Ada"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -411,7 +411,7 @@
                     android:layout_height="wrap_content"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
-                    android:backgroundTint="#FFFFFF"
+                    android:backgroundTint="#000080"
                     android:layout_marginLeft="12dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginRight="12dp"
@@ -424,7 +424,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
-                        android:textColor="#000"
+                        android:textColor="#FFF"
                         android:textSize="18sp"
                         android:textStyle="bold"
                         android:text="Kontak"/>
@@ -441,7 +441,7 @@
                             android:layout_marginLeft="5dp"
                             android:layout_marginRight="12dp"
                             android:text="No Telpon : (0283) 353330"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -452,7 +452,7 @@
                             android:layout_marginRight="12dp"
                             android:text="Email : smp5tegal@gmail.com"
                             android:autoLink="email"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
@@ -463,7 +463,7 @@
                             android:layout_marginRight="12dp"
                             android:text="Website : http://smpn5kotategal.sch.id"
                             android:autoLink="web"
-                            android:textColor="#000"
+                            android:textColor="#FFF"
                             android:textSize="12sp"
                             android:textStyle="bold" />
 
