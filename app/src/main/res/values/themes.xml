@@ -3,7 +3,7 @@
     <style name="Theme.SMPN5TEGAL" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">#D5D1D1</item>
-        <item name="colorPrimaryVariant">#E5E5E6</item>
+        <item name="colorPrimaryVariant">#696969</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

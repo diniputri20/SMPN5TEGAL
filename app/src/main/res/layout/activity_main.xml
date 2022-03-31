@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/background2"
+    android:background="@drawable/wallpaper2"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -67,7 +67,7 @@
                     android:layout_gravity="center"
                     android:orientation="horizontal"
                     android:onClick="profil"
-                    android:background="#E5E5E6">
+                    android:background="@drawable/wallpaper2">
 
                     <ImageView
                         android:layout_width="70dp"
@@ -115,6 +115,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="25dp"
                         android:text="FASILITAS"
+                        android:textColor="#FFF"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -140,6 +141,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="25dp"
                         android:text="GURU"
+                        android:textColor="#FFF"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -175,6 +177,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="25dp"
                         android:text="EKSKUL"
+                        android:textColor="#FFF"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -199,6 +202,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="25dp"
                         android:text="GALERI"
+                        android:textColor="#FFF"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -216,13 +220,14 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:onClick="prestasi"
-                        android:src="@drawable/logoprestasi2" />
+                        android:onClick="perpus"
+                        android:src="@drawable/perpus" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="25dp"
-                        android:text="FASILITAS"
+                        android:text="E-PERPUS"
+                        android:textColor="#FFF"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -231,64 +236,39 @@
             </LinearLayout>
             <!--            penutup variabel menu 4, 5 dan 6-->
 
-            <!--            pembuka variabel menu 7 dan 8-->
+            <!--            pembuka variabel menu 8-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:orientation="horizontal"
-                android:weightSum="2">
-                <!--                menu 7-->
+                android:weightSum="1">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
-                    android:layout_height="170dp"
+                    android:layout_height="90dp"
                     android:layout_weight="1"
-                    android:orientation="vertical"
                     android:gravity="center"
-                    android:layout_margin="10dp">
-
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:layout_gravity="center"
-                        android:onClick="perpus"
-                        android:src="@drawable/perpus" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="25dp"
-                        android:text="E-PERPUS"
-                        android:textSize="20dp"
-                        android:textStyle="bold"/>
-
-                </LinearLayout>
-                <!--                penutup menu 7-->
-                <!-- menu 8-->
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="170dp"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:layout_margin="10dp">
+                    android:layout_margin="10dp"
+                    android:onClick="siapppdb">
 
                     <ImageView
                         android:layout_width="85dp"
                         android:layout_height="85dp"
-                        android:onClick="siapppdb"
                         android:src="@drawable/ppdb1" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="25dp"
                         android:text="SIAP PPDB"
+                        android:textColor="#FFF"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
                 </LinearLayout>
-                <!--                penutup menu 8-->
+
             </LinearLayout>
-            <!--            penutup variabel menu 7 dan 8-->
+            <!--            penutup variabel menu 8-->
 
         </LinearLayout>
 

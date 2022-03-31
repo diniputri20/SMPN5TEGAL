@@ -15,9 +15,6 @@
         android:theme="@style/Theme.SMPN5TEGAL"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".PrestasiActivity"
-            android:exported="false" />
-        <activity
             android:name=".SiapppdbActivity"
             android:exported="false" />
         <activity

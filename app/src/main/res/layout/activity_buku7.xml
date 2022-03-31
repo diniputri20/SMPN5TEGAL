@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".Buku7Activity">
 
     <androidx.core.widget.NestedScrollView
@@ -31,6 +30,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:backgroundTint="#dfdfdf"
                     app:cardElevation="10dp">
 
                     <TextView
@@ -109,7 +109,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="mtk7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -161,7 +161,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="bi7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -221,7 +221,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="big7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -273,7 +273,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="ipa7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -333,7 +333,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="ips7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -385,7 +385,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="pai7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -445,7 +445,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="pjok7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -497,7 +497,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="pkn7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -557,7 +557,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="prakarya7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>
@@ -609,7 +609,7 @@
                                         android:cursorVisible="true"
                                         android:linksClickable="true"
                                         android:onClick="sby7"
-                                        android:textColor="@color/white"
+                                        android:textColor="#000080"
                                         android:text="BACA"/>
 
                                 </LinearLayout>

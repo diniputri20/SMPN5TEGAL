@@ -67,8 +67,4 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void prestasi(View view) {
-        Intent intent = new Intent(MainActivity.this, PrestasiActivity.class);
-        startActivity(intent);
-    }
 }

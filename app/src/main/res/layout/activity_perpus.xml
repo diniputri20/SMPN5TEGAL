@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/wallpaper2"
     tools:context=".PerpusActivity">
     <FrameLayout
         android:layout_width="match_parent"
@@ -26,7 +27,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="210dp"
                         android:scaleType="fitXY"
-                        android:src="@drawable/headerperpus" />
+                        android:src="@drawable/perpusheader" />
                 </RelativeLayout>
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -64,13 +65,11 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_width="140dp"
-                                    android:layout_height="140dp"
-                                    android:layout_margin="10dp"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="20dp"
                                     android:layout_gravity="center"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/bukukls8">
+                                    android:src="@drawable/book2">
 
                                 </ImageView>
 
@@ -110,15 +109,12 @@
                                 android:layout_gravity="center"
                                 android:orientation="horizontal">
 
-
                                 <ImageView
-                                    android:layout_width="140dp"
-                                    android:layout_height="140dp"
-                                    android:layout_margin="10dp"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="20dp"
                                     android:layout_gravity="center"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/bukukls9">
+                                    android:src="@drawable/book1">
 
                                 </ImageView>
 
@@ -160,13 +156,11 @@
 
 
                                 <ImageView
-                                    android:layout_width="140dp"
-                                    android:layout_height="140dp"
-                                    android:layout_margin="10dp"
+                                    android:layout_width="100dp"
+                                    android:layout_height="100dp"
+                                    android:layout_margin="20dp"
                                     android:layout_gravity="center"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginTop="10dp"
-                                    android:src="@drawable/bukukls7">
+                                    android:src="@drawable/book">
 
                                 </ImageView>
 
