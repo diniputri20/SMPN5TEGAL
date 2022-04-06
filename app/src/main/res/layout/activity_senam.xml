@@ -107,7 +107,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="10dp"
                             android:textColor="#000"
-                            android:text="Senam kesegaran jasmani merupakan aktivitas senam yang gerakannya mengikuti irama, baik dari iringan musik atau hitungan mulut. Senam SKJ biasanya dilakukan bersama-sama dan gerakannya meliputi semua anggota tubuh, mulai dari gerakan tangan, kepala, badan, hingga kaki. Kini gerakan senam SKJ telah banyak dikembangkan dan disesuaikan untuk semua kalangan, mulai dari anak-anak hingga lansia. Untuk itu senam SKJ sangat cocok di lingkungan Sekolah dan diikuti oleh seluruh siswa, guru, dan pegawai SMPN 5 TEGAL.">
+                            android:text="Senam kesegaran jasmani merupakan aktivitas senam yang gerakannya mengikuti irama, baik dari iringan musik atau hitungan mulut. Senam SKJ biasanya dilakukan bersama-sama dan gerakannya meliputi semua anggota tubuh, mulai dari gerakan tangan, kepala, badan, hingga kaki. Kini gerakan senam SKJ telah banyak dikembangkan dan disesuaikan untuk semua kalangan.">
 
                         </TextView>
 
