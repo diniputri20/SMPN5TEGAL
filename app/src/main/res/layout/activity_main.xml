@@ -65,11 +65,12 @@
             <!-- menu 1-->
             <androidx.cardview.widget.CardView
                 android:layout_width="410dp"
-                android:layout_height="90dp"
+                android:layout_height="98dp"
                 android:layout_gravity="center">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:layout_gravity="center"
                     android:orientation="horizontal"
                     android:onClick="profil"
@@ -79,13 +80,13 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:layout_gravity="center"
-                        android:layout_margin="10dp"
+                        android:layout_margin="30dp"
                         android:src="@drawable/profil"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="5dp"
                         android:text="SMP NEGERI 5 KOTA TEGAL"
                         android:textSize="20sp"
                         android:textStyle="bold"/>
@@ -255,40 +256,45 @@
                     android:layout_height="90dp"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:layout_margin="10dp"
-                    android:onClick="siapppdb">
+                    android:layout_margin="10dp">
 
                     <ImageView
                         android:layout_width="85dp"
                         android:layout_height="85dp"
-                        android:src="@drawable/ppdb1" />
+                        android:src="@drawable/ppdb1"
+                        android:onClick="siapppdb"/>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="5dp"
-                        android:layout_marginTop="5dp"
-                        android:text="SIAP PPDB"
-                        android:textColor="#FFF"
-                        android:textSize="20dp"
-                        android:textStyle="bold"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="SIAP PPDB"
+                            android:textColor="#FFF"
+                            android:textSize="20dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10dp"
+                            android:text="http://jateng.siap-online.com/ppdb"
+                            android:autoLink="web"
+                            android:textColor="#FFF"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
 
                 </LinearLayout>
 
             </LinearLayout>
             <!--            penutup variabel menu 8-->
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="5dp"
-                android:text="http://jateng.siap-online.com/ppdb"
-                android:autoLink="web"
-                android:textColor="#FFF"
-                android:textSize="12sp"
-                android:textStyle="bold" />
 
         </LinearLayout>
 

@@ -101,7 +101,7 @@
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="50dp"
                                         android:textColor="#FFFFFF"
-                                        android:text="ORGANISASI PRAMUKA">
+                                        android:text="PRAMUKA">
 
                                     </TextView>
                                 </LinearLayout>
