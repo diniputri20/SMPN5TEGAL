@@ -18,13 +18,10 @@
             android:name=".SiapppdbActivity"
             android:exported="false" />
         <activity
-            android:name=".SenamActivity"
+            android:name=".TenisActivity"
             android:exported="false" />
         <activity
             android:name=".KarateActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RenangActivity"
             android:exported="false" />
         <activity
             android:name=".SepakbolaActivity"

@@ -85,7 +85,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="TEATER"/>
+                        android:text="SENI TEATER"/>
 
                     <TextView
                         android:layout_width="wrap_content"

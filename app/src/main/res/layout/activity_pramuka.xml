@@ -85,7 +85,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="ORGANISASI PRAMUKA"/>
+                        android:text="PRAMUKA"/>
 
                     <TextView
                         android:layout_width="wrap_content"

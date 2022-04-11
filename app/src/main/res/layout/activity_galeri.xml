@@ -35,7 +35,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="UPACARA BENDERA"
+                    android:text="UPACARA BENDERA  ➞ "
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -61,7 +61,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginTop="60dp"
@@ -80,7 +80,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"
@@ -125,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="KEGIATAN KEPRAMUKAAN"
+                    android:text="KEGIATAN KEPRAMUKAAN  ➞ "
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -151,7 +151,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginTop="60dp"
@@ -170,11 +170,30 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"
                                     android:src="@drawable/pramuka11" />
+
+                            </LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent" />
+
+                            <LinearLayout
+                                android:layout_width="390dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:layout_width="310dp"
+                                    android:layout_height="200dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginTop="60dp"
+                                    android:src="@drawable/pramukasmp" />
 
                             </LinearLayout>
 
@@ -215,7 +234,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="PERINGATAN HARI GURU"
+                    android:text="PERINGATAN HARI GURU  ➞ "
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -241,7 +260,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginTop="60dp"
@@ -260,7 +279,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"
@@ -305,7 +324,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="KEGIATAN LDK"
+                    android:text="KEGIATAN LDK  ➞ "
                     android:textColor="#000"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -331,7 +350,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginTop="60dp"
@@ -350,7 +369,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"
@@ -395,7 +414,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="KEMAH BUDAYA KOTA TEGAL"
+                    android:text="KEMAH BUDAYA KOTA TEGAL  ➞ "
                     android:textColor="#000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -421,7 +440,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginTop="60dp"
@@ -446,7 +465,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"
@@ -489,7 +508,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
-                    android:text="Lomba SKJ Thn 2017, 2018, dan 2019"
+                    android:text="Lomba SKJ  ➞ "
                     android:textColor="#000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -515,7 +534,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginLeft="12dp"
                                     android:layout_marginTop="60dp"
@@ -540,7 +559,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"
@@ -566,7 +585,7 @@
                                 android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="match_parent"
+                                    android:layout_width="310dp"
                                     android:layout_height="200dp"
                                     android:layout_marginTop="60dp"
                                     android:layout_marginRight="12dp"

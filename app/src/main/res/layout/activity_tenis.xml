@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RenangActivity">
+    tools:context=".TeaterActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -75,7 +75,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/renang"/>
+                        android:src="@drawable/logotenis1"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -85,7 +85,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="RENANG"/>
+                        android:text="TENIS MEJA"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -107,17 +107,17 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="10dp"
                             android:textColor="#000"
-                            android:text="Renang merupakan salah satu cabang olahraga yang ada di SMPN 5 TEGAL. Kegiatan renang menjadi wadah untuk peserta didik di SMPN 5 TEGAL untuk menyalurkan hobi serta mengembangkan minat dan bakatnya dalam cabang olahraga renang. Tujuan lain diselenggarakannya renang ini adalah untuk pembinaan prestasi peserta didik dibidang non akademik khusunya pada olahraga.">
+                            android:text="Ekstrakulikuler tenis meja adalah salah satu ekstrakulikuler olahraga yang ada di SMPN 5 TEGAL. Ekstrakurikuler ini bertujuan untuk memberikan wadah bagi siswa dalam menyalurkan minat dan potensi dalam bermain tenis meja dan menanamkan semangat solidaritas.">
 
                         </TextView>
 
                         <ImageView
                             android:layout_width="match_parent"
-                            android:layout_height="170dp"
+                            android:layout_height="150dp"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:layout_marginTop="13dp"
-                            android:src="@drawable/renang2"/>
+                            android:layout_marginTop="12dp"
+                            android:src="@drawable/tenismeja"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -129,6 +129,7 @@
                             android:textStyle="bold"/>
 
                     </LinearLayout>
+
                 </androidx.cardview.widget.CardView>
 
             </GridLayout>
