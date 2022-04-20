@@ -1,9 +1,8 @@
-package com.example.smpn5tegal;
+package com.profil.smpn5tegal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 

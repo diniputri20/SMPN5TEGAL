@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smpn5tegal">
+    package="com.profil.smpn5tegal">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -15,58 +15,58 @@
         android:theme="@style/Theme.SMPN5TEGAL"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".SiapppdbActivity"
+            android:name="com.profil.smpn5tegal.SiapppdbActivity"
             android:exported="false" />
         <activity
-            android:name=".TenisActivity"
+            android:name="com.profil.smpn5tegal.TenisActivity"
             android:exported="false" />
         <activity
-            android:name=".KarateActivity"
+            android:name="com.profil.smpn5tegal.KarateActivity"
             android:exported="false" />
         <activity
-            android:name=".SepakbolaActivity"
+            android:name="com.profil.smpn5tegal.SepakbolaActivity"
             android:exported="false" />
         <activity
-            android:name=".VolyActivity"
+            android:name="com.profil.smpn5tegal.VolyActivity"
             android:exported="false" />
         <activity
-            android:name=".PramukaActivity"
+            android:name="com.profil.smpn5tegal.PramukaActivity"
             android:exported="false" />
         <activity
-            android:name=".TeaterActivity"
+            android:name="com.profil.smpn5tegal.TeaterActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.profil.smpn5tegal.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".Buku9Activity"
+            android:name="com.profil.smpn5tegal.Buku9Activity"
             android:exported="false" />
         <activity
-            android:name=".Buku8Activity"
+            android:name="com.profil.smpn5tegal.Buku8Activity"
             android:exported="false" />
         <activity
-            android:name=".Buku7Activity"
+            android:name="com.profil.smpn5tegal.Buku7Activity"
             android:exported="false" />
         <activity
-            android:name=".GaleriActivity"
+            android:name="com.profil.smpn5tegal.GaleriActivity"
             android:exported="false" />
         <activity
-            android:name=".PerpusActivity"
+            android:name="com.profil.smpn5tegal.PerpusActivity"
             android:exported="false" />
         <activity
-            android:name=".FasilitasActivity"
+            android:name="com.profil.smpn5tegal.FasilitasActivity"
             android:exported="false" />
         <activity
-            android:name=".EkskulActivity"
+            android:name="com.profil.smpn5tegal.EkskulActivity"
             android:exported="false" />
         <activity
-            android:name=".GuruActivity"
+            android:name="com.profil.smpn5tegal.GuruActivity"
             android:exported="false" />
         <activity
-            android:name=".ProfilActivity"
+            android:name="com.profil.smpn5tegal.ProfilActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.profil.smpn5tegal.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

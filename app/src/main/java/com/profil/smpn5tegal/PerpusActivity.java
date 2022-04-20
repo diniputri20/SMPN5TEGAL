@@ -1,14 +1,10 @@
-package com.example.smpn5tegal;
+package com.profil.smpn5tegal;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
-import com.smarteist.autoimageslider.SliderAnimations;
-import com.smarteist.autoimageslider.SliderView;
 
 public class PerpusActivity extends AppCompatActivity {
 

@@ -1,14 +1,14 @@
-package com.example.smpn5tegal;
+package com.profil.smpn5tegal;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class FasilitasActivity extends AppCompatActivity {
+public class PramukaActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fasilitas);
+        setContentView(R.layout.activity_pramuka);
     }
 }

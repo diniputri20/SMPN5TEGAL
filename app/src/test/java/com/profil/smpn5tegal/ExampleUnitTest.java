@@ -1,4 +1,4 @@
-package com.example.smpn5tegal;
+package com.profil.smpn5tegal;
 
 import org.junit.Test;
 
